@@ -20,7 +20,6 @@
 | [`10-practicals`](./10-practicals/) | 📝 Practicals | Formal coursework practicals #1–#10 | 10 |
 | [`11-adhar-voting-system`](./11-adhar-voting-system/) | 🪪 Aadhaar System | **Aadhaar card + Voting System** with ID verification | 4 |
 | [`12-python-data-types-explorer`](./12-python-data-types-explorer/) | 🧠 Data Types Explorer | Interactive 16KB mega-menu covering ALL Python concepts | 2 |
-| [`13-satya-instagram-bot`](./13-satya-instagram-bot/) | 🤖 Instagram Bot | Auto-comment Instagram bot using InstaPy | 1 |
 | [`15-extra-programs`](./15-extra-programs/) | ➕ Extra Programs | Misc algorithms, logic gates, utilities | 10+ |
 
 ---
