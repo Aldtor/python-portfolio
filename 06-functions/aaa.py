@@ -1,0 +1,2 @@
+import satyammodule
+satyammodule.sum()

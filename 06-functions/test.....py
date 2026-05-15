@@ -1,0 +1,6 @@
+a=input("Enter the String")
+b=input("Enter the symbol")
+c=int(input("Enter the no. of symbols"))
+d=(b*c)
+e=d.join(a)
+print(e)

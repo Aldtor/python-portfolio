@@ -1,0 +1,11 @@
+#a=input("Enter a Dictionary :- ")
+a={1:4,2:6,3:9,4:7}
+k=a.popitem()
+print(k)
+print(min(a))
+print(max(a))
+print(sum(a.keys()))
+a.pop(1,-1)
+print(a.keys())
+print(a.values())
+print(a)

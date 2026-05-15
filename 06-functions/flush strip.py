@@ -1,0 +1,7 @@
+fh=open("C:\\Users\\dell\\Desktop\\vowel.txt",'w+')
+x=fh.write("Come and share the  \n")
+fh.flush()
+print(x)
+y=fh.write("My"+"work-status"+"is")
+print(y)
+fh.close()

@@ -1,0 +1,1 @@
+d={"Team PAKISTAN":32,"Team SRI-LANKA":42,"Team CHINA":34,"Team INDIA":47}

@@ -1,0 +1,5 @@
+r=int(input("enter the rate"))
+t=int(input("enter the time"))
+p=int(input("enter the principle amount"))
+si=(p*r*t/100)
+print("SI= ",si)

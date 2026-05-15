@@ -1,0 +1,8 @@
+val=eval(input("Enter a list:- "))
+print("Original list:- ",val)
+val=(val*2)
+print("Replicated list:- ",val)
+val.sort()
+print("Sorted in ascending order:- ",val)
+val.sort(reverse=True)
+print("Sorted in descending order:- ",val)
