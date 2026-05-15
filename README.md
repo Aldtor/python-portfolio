@@ -21,7 +21,6 @@
 | [`11-adhar-voting-system`](./11-adhar-voting-system/) | 🪪 Aadhaar System | **Aadhaar card + Voting System** with ID verification | 4 |
 | [`12-python-data-types-explorer`](./12-python-data-types-explorer/) | 🧠 Data Types Explorer | Interactive 16KB mega-menu covering ALL Python concepts | 2 |
 | [`13-satya-instagram-bot`](./13-satya-instagram-bot/) | 🤖 Instagram Bot | Auto-comment Instagram bot using InstaPy | 1 |
-| [`14-riko-voice-chat-server`](./14-riko-voice-chat-server/) | 🎙️ Riko AI Server | AI Voice Chat — ASR → LLM → TTS pipeline | 4 |
 | [`15-extra-programs`](./15-extra-programs/) | ➕ Extra Programs | Misc algorithms, logic gates, utilities | 10+ |
 
 ---
@@ -47,16 +46,6 @@
 - 💬 Custom personality & responses
 
 📁 See [`09-lisa-ai-assistant/`](./09-lisa-ai-assistant/)
-
----
-
-### 🎙️ Riko — AI Voice Chat Server
-> Advanced pipeline: Voice → AI → Voice
-```
-🎤 Speech → ASR → LLM → SoVITS TTS → 🔊 Voice Output
-```
-
-📁 See [`14-riko-voice-chat-server/`](./14-riko-voice-chat-server/)
 
 ---
 
