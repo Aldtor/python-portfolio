@@ -9,7 +9,7 @@
 
 ### **A Comprehensive Collection of 200+ Python Programs, Algorithms, Data Structures, CLI Systems, and AI Utilities**
 
-*From core number theory, sorting algorithms, and custom data structure implementations to an Aadhaar ID voting simulation, local offline voice assistant, and automation tools.*
+*From core number theory, sorting algorithms, and custom data structure implementations to an Aadhaar ID voting simulation, local Ollama assistant with optional online Google speech recognition, and automation tools.*
 
 ---
 
@@ -37,7 +37,7 @@ This repository documents my hands-on journey mastering Python through direct pr
 | [`06-functions`](./06-functions/) | ⚙️ **Functions & Recursion** | Pure functions, lambda calculus, recursive algorithms, memoization | 15+ |
 | [`07-file-handling`](./07-file-handling/) | 📁 **File I/O & Serialization** | Text streams, CSV parsers, binary record management with `pickle` | 8+ |
 | [`08-stacks-and-queues`](./08-stacks-and-queues/) | 📚 **Data Structures** | Stack (LIFO) & Queue (FIFO) implementations with overflow/underflow logic | 6+ |
-| [`09-lisa-ai-assistant`](./09-lisa-ai-assistant/) | 🤖 **Lisa AI Voice Assistant** | Local STT (`speech_recognition`) + TTS (`pyttsx3`) + conversation memory | 4 |
+| [`09-lisa-ai-assistant`](./09-lisa-ai-assistant/) | 🤖 **Lisa AI Voice Assistant** | Local Ollama chat + local TTS; optional Google STT sends recorded audio online | 4 |
 | [`10-practicals`](./10-practicals/) | 📝 **Formal Coursework** | Comprehensive laboratory exercises and academic practical challenges | 10 |
 | [`11-adhar-voting-system`](./11-adhar-voting-system/) | 🪪 **Aadhaar ID & Voting CLI** | Full Aadhaar identity verification gate with electronic voting simulation | 4 |
 | [`12-python-data-types-explorer`](./12-python-data-types-explorer/) | 🧠 **Mega Interactive Explorer** | 16KB monolithic interactive CLI demonstrating all Python data types | 2 |
@@ -55,10 +55,11 @@ A complete terminal-based authentication and electoral voting engine.
 - 📁 *Path: [`11-adhar-voting-system/`](./11-adhar-voting-system/)*
 
 ### 🤖 2. Lisa — Personal AI Voice Assistant
-A lightweight, offline-capable desktop voice assistant.
-- **Speech Synthesis:** Offline text-to-speech engine powered by `pyttsx3`.
-- **Audio Recognition:** Real-time microphone listening via `speech_recognition`.
-- **Stateful Memory:** JSON-backed context storage for maintaining user preferences.
+A desktop assistant that runs chat locally through Ollama and uses local `pyttsx3` text-to-speech. The main CLI accepts typed input. The optional helper in `voice/stt.py` uses Google's online Speech Recognition API, so recorded audio is sent to Google; it is not integrated into the main CLI.
+- **Chat:** Local Ollama `llama3` model.
+- **Text-to-Speech:** Local speech synthesis via `pyttsx3`.
+- **Optional Speech-to-Text:** `recognize_google` requires internet and sends microphone audio to Google.
+- **Stateful Memory:** JSON-backed assistant settings and style preferences.
 - 📁 *Path: [`09-lisa-ai-assistant/`](./09-lisa-ai-assistant/)*
 
 ### 🧠 3. Python Data Types Interactive Explorer
@@ -74,7 +75,7 @@ An educational CLI application that serves as a live sandbox for Python learners
 - ✅ **Data Structures:** Custom Stack, Queue, Hash Tables, Matrix manipulations, Sorting & Searching.
 - ✅ **File Systems:** Binary I/O, `pickle` serialization, text streaming, exception handling.
 - ✅ **System Automation:** `os`, `sys`, `datetime`, `json`, `webbrowser` standard libraries.
-- ✅ **Audio & Signal Processing:** Real-time speech recognition, voice synthesis pipelines.
+- ✅ **Audio & Signal Processing:** Local voice synthesis and an optional online speech-recognition helper.
 
 ---
 
